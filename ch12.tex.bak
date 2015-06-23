@@ -1,0 +1,190 @@
+\section{Chapter 12. Solids}
+
+{\footnotesize
+\begin{multicols}{3}
+    \begin{compactenum}
+    \item classify solids based on bonding/IMFs
+    \item differences between crystalline and amorphous solids
+        (crystal lattice, unit cells, etc)
+    \item why are there a limited number of lattices? 5 2D and 7 3D
+        primitive lattices
+    \item characteristics/properties of metals
+    \item empirical formula and density of ionic/metallic solid given a unit cell.\
+        estimate length of a cubic unit cell from radii of atoms present
+    \item homogeneous/heterogeneous alloys
+    \item electron-sea model of metallic bonding
+    \item MO model of metallic bonding to generate electronic band structure
+        of metals, qualitatively predict MP \& BP, hardness
+    \item predict structures of ionic solids given radii and empirical formula
+    \item MP \& BP in terms of IMF and crystalline forces
+    \item valence/conduction bands. band gap, holes, semiconductor and insulator
+    \item account for relative band gap energies of semiconductors through periodic trends
+    \item n-type and p-type doping to control conductivity
+    \item plastic, thermoplastic, thermosetting plastic, elastomer, copolymers,
+        and cross-linking
+    \item polymers formed from monomers, what features allow this?
+    \item polymer chain interactions impact physical properties
+    \item properties of semicond. and metals change with nanometer crystals
+    \item structure/properties of fullerenes, carbon nanotubes and graphene
+    \end{compactenum}
+\end{multicols}
+}
+
+\begin{mdframed}
+    \subsection{Classification}
+    \begin{multicols}{3}
+\begin{compactdesc}
+		\item[solids] lowest energy phase, mostly vibrational energy 
+		(others: translational and rotational). Atoms packed tight. 
+		It is surfaces of solids that react.
+        \item[metallic solids] held together by delocalized sea of valence $e^-$
+        \item[ionic solids] mutual attraction between anions/cations
+        \item[covalent-network solids] extended network of covalent bonds
+        \item[molecular solids] weak IMFs
+        \item[polymers] long chains of atoms, covalent
+        \item[nanomaterials] individual crystals are 1-100nm.
+    \end{compactdesc}
+\end{multicols}
+\end{mdframed}
+
+
+\begin{mdframed}
+    \subsection{Structures}
+
+    \begin{multicols}{3}
+\begin{compactdesc}
+        \item[crystalline solids] regularly repeating pattern, usually flat
+            faces, specific angles
+        \item[amorphous solids] no long-range order
+        \item[unit cell] smallest repeating unit
+        \item[crystal lattice] geometrical pattern of points where unit cells go.
+            \emph{N-dimensional} lattices
+            can be defined with \emph{n} vectors
+        \item[motif,]group of atoms, associated with each \emph{lattice point}
+        \item[primitives] 5 2D lattices, 7 3D lattices
+        \item[square  ] $a = b, \gamma = 90$
+        \item[rect    ] $a \neq b, \gamma = 90$
+        \item[hex     ] $a = b, \gamma = 120$
+        \item[rhombic ] $a = b$
+        \item[oblique ] $a \neq b$
+        \item[cubic] $a = b = c, \alpha = \beta = \gamma = 90$
+        \item[tetra] $a = b \neq c, \alpha = \beta = \gamma = 90$
+        \item[hexa] $a = b \neq c, \alpha = \beta = 90, \gamma = 120$
+        \item[rhombohedral] $a = b \neq c, \alpha = \beta = \gamma \neq 90$
+        \item[orthorhombic] $a \neq b \neq c, \alpha = \beta = \gamma = 90$
+        \item[monoclinic] $a \neq b \neq c, \alpha = \beta = 90, \gamma \neq 90$
+        \item[triclinic] $a \neq b \neq c, \alpha \neq \beta \neq \gamma$
+        \item[body-centered cubic] additional point at center of such a cell
+        \item[face-centered] additional points at the faces of a cell
+    \end{compactdesc}
+\end{multicols}
+\end{mdframed}
+
+
+
+\begin{mdframed}
+    \subsection{Metallic solids}
+
+\begin{multicols}{3}
+\begin{compactdesc}
+    \item[Metallic solids] good conductors of electricity and heat, malleable (sheets), ductile (wires)
+    \item[Structure] usually simple, just need one atom on each
+        lattice point.
+    \item[Primitive] 1 atom per unit cell. \textbf{Body-centered} 2 atoms per.
+        \textbf{Face-centered} 4 atoms per.
+    \item[Tight packing] is favorable if $e^-$ are shared.
+    	\textbf{Hexagonal close packing} hcp, \textbf{Cubic} ccp. 
+    \item[Coordination number] 12 for hcp and ccp. In both,
+    	each sphere has 12 equidistant neighbors. Any immediate neighbors.
+    
+    
+	\item[Alloy] material that contains more than one element and behaves like
+		a metal. 
+	\item[Substitutional alloy] two metallic 
+	\item[Interstitial alloy] 
+    
+    \item[Electrons migrate] to positive end. 
+    \item[Conduction band] 
+    	Easier to remove $e^-$ from the ``top,'' closer to conduction.
+    \item[Valence band] Bands also apply to nonmetals.
+
+
+        TODO
+
+\end{compactdesc}
+\end{multicols}
+\end{mdframed}
+
+
+
+\begin{mdframed}
+    \subsection{Metallic bonding}
+
+    \begin{multicols}{3}
+\begin{compactdesc}
+    \item[Electron-sea model] metal = array of metal cations in a sea of
+        valence electrons.
+\end{compactdesc}
+\end{multicols}
+\end{mdframed}
+
+
+
+\begin{mdframed}
+    \subsection{Ionic solids}
+
+    \begin{multicols}{3}
+\begin{compactdesc}
+    \item[]
+    \end{compactdesc}
+\end{multicols}
+\end{mdframed}
+
+
+
+\begin{mdframed}
+    \subsection{Molecular solids}
+
+    \begin{multicols}{3}
+\begin{compactdesc}
+    \item[]
+    \end{compactdesc}
+\end{multicols}
+\end{mdframed}
+
+
+
+\begin{mdframed}
+    \subsection{Covalent-network solids}
+
+    \begin{multicols}{3}
+\begin{compactdesc}
+    \item[]
+    \end{compactdesc}
+\end{multicols}
+\end{mdframed}
+
+
+
+\begin{mdframed}
+    \subsection{Polymers}
+
+    \begin{multicols}{3}
+\begin{compactdesc}
+    \item[]
+    \end{compactdesc}
+\end{multicols}
+\end{mdframed}
+
+
+
+\begin{mdframed}
+    \subsection{Nanomaterials}
+
+    \begin{multicols}{3}
+\begin{compactdesc}
+    \item[]
+    \end{compactdesc}
+\end{multicols}
+\end{mdframed}
+

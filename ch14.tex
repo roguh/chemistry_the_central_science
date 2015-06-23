@@ -1,0 +1,183 @@
+\section{Chapter 14. Chemical kinetics}
+
+
+\secttoc
+
+{\footnotesize
+\begin{multicols}{3}
+\begin{compactenum}
+    \item Factors affecting rate of reactions
+    \item Rate of reaction given time and concentration
+    \item Relate rates of product formation and reactant disappearance given
+        balanced chemical equation
+    \item Explain form and meaning of a rate law (reaction order, rate constant)
+    \item Determine these given measure rates for various concentrations
+    \item Integrate rate laws
+    \item Relationship between rate constant of 1st order and half-life
+    \item Activation energy affects a rate, Arrhenius equation
+    \item Predict rate law for a multi-step mechanism given each step.
+    \item Explain principles of catalysis
+\end{compactenum}
+\end{multicols}
+}
+
+\begin{mdframed}\subsection{Reaction Rates}
+\begin{multicols}{2}
+\begin{compactdesc}
+    \item[Chemical kinetics] concerned with rates of reaction
+    \item[Reaction rates] affected by physical states
+        the more readily collisions occur, the more rapidly goes the reaction.
+        Affected by reaction concentrations and temperature. Catalysts increase
+        reaction rates by affecting activation rates.
+    \item[homogeneous] same phase
+    \item[heterogeneous] different phases
+\end{compactdesc}
+\end{multicols}
+\end{mdframed}
+
+
+\begin{mdframed}\subsection{Rates and Concentration}
+\begin{multicols}{2}
+    Rate is typically measured in molarity per second, change in
+    concentration, ($M/s$).
+\begin{compactdesc}
+    \item[Average rate] of disappearance of A $=
+        \frac{\Delta [\text{A}]}{\Delta t}$
+    \item[Instantaneous rate] concentrations can be measured using \textbf{spectroscopy}.
+    \item[Beer's law] concentration, c is directly proportional to absorbance, A.
+        $A = \epsilon b c$, b is path length.
+    \item[Stoichiometry] In reaction \ce{A -> B} the rate of appearance of product
+        is the rate of disappearance of reactant.
+    \item[Relative rates] In reaction \ce{aA + bB -> cC + dD}, the rates are
+        $   -\frac{1}{a}\frac{\Delta A}{\Delta t}
+          = -\frac{1}{b}\frac{\Delta B}{\Delta t}
+          =  \frac{1}{c}\frac{\Delta C}{\Delta t}
+          =  \frac{1}{d}\frac{\Delta D}{\Delta t}
+        $. This does not hold true if intermediate substances are formed in
+        significant amounts.
+    \item[Rates are positive] by convention
+
+    \item[(Differential) Rate Law] Typically of form $R = -k[A]^m[B]^n$
+    \item[Rate constant] $k :: M^{-m - n + 1}s^{-1}$. Different for every reaction
+        and temperature; $>10^9$ means fast, $<10$ means slow.
+    \item[Reaction orders]
+        $m, n$ usually 0, 1, 2. Can be negative or fractional.
+    \item[Overall reaction order] $n + m$
+    \item[Rate law from Initial rates]
+        \(
+            n = \frac {\ln \frac {Rate_1} {Rate_2} } {\ln \frac {[A]_1} {[A]_2} }
+        \)
+\end{compactdesc}
+\end{multicols}
+\end{mdframed}
+
+
+
+\begin{mdframed}
+\subsection{Concentration and Time}
+\begin{multicols}{2}
+    Integrated, linear rate laws for the first order reaction \ce{A -> \dots}
+\begin{compactdesc}
+    \item[First-order reaction]
+        $\ln [A]_t = \ln [A]_0 - kt$.
+    \item[Second order reaction]
+        $\frac{1}{[A]_t} = \frac {1} {[A]_0} + kt$.
+    \item[Zero-order reaction] $[A]_t = [A]_0 - kt$
+    \item[Half life] of a first-order depends only on $k$. $t_{1/2} = -\frac{\ln 1/2} {k}$
+\end{compactdesc}
+\end{multicols}
+\end{mdframed}
+
+
+
+
+
+\begin{mdframed}\subsection{The Effect of Temperature on Rates}
+\begin{multicols}{2}
+\begin{compactdesc}
+    \item[Collision model] based on kinetic molecular theory. Molecules
+        must collide to react, so goes the theory. More energy/temp means
+        more collisions, faster rate. Molecules must be aligned correctly on impact.
+    \item[Activation energy, $E_a$] needs to be achieved.
+        Must also be moving fast enough and in the correct orientation.
+        Lower $E_a$ means faster reactions.
+        Never negative.
+    \item[Rate does not depend on] $\Delta H$, only on $E_a$
+    \item[Activated complex/transition state] Enough energy in the right
+        direction, now the molecules may react together.
+        Highest potential energy. It's all downhill from here!
+    \item[Arrhenius equation] Rate constant incorporates all of these:
+        $k = Ae^{-E_a / RT}$. A is the \textbf{frequency factor}, constant as
+        temperature is varied. Can be used to find different $k$s.
+        $R = 8.314 J \cdot mol^{-1} \cdot K^{-1} $
+        $= 0.082057L \cdot atm \cdot K^{-1}\cdot mol^{-1}$
+    \item[Solve for $k$] at different temperatures. $A$ and $E_a$ remain
+        constant:
+        \[
+            \ln \frac{k_1}{k_2} = \frac{E_a}{A} \big( 1/T_2 - 1/T_1 \big)
+        \]
+\end{compactdesc}
+\end{multicols}
+\end{mdframed}
+
+
+
+\begin{mdframed}\subsection{Reaction Mechanisms}
+\begin{multicols}{2}
+\begin{compactdesc}
+    \item[Reaction mechanism] Steps which constitute a reaction.
+        Order in which bonds are modified. And change in relative positions.
+    \item[Elementary reactions] Single step. Defined by \# of molecules
+        colliding: \textbf{uni/bi/ter}molecular.
+        $>3$ molecules colliding is improbable.
+    \item[Intermediate]
+        \ce{NO2 + CO -> NO + CO2} is actually
+        \ce{NO2 + NO2 -> NO3 + NO} then \ce{NO3 + CO -> NO2 + CO2}
+        Together: \ce{2NO2 + NO3 + CO -> NO2 + NO3 + NO + CO2}
+        Thus \ce{NO3} is an intermediate, common in both sides of the addition.
+        Multi-step reactions have one or more such substances.
+    \item[Rate laws] of elementary reactions have an overall reaction order
+        equal to the number of molecules involved. Termolecular, $n + m = 3$.
+        A single chemical equation cannot tell us if a reaction is elementary!
+    \item[Rate-determining step] is the slowest. If initial, likely that its
+        rate law will govern that of the overall.
+    \item[Slow initial step] the rate is usually equal to the rate of the
+        initial step.
+\end{compactdesc}
+
+If the initial step is fast, the rate law may be derived by assuming
+equilibrium and solving the $k_1$ and $k_{-1}$ to get rid of the intermediate
+substance \ce{NOBr2}.
+
+Example: \[\ce{2NO + Br2 -> 2NOBr}\] could be a termolecular reaction, or
+the fast equilibrium step and a slow final step
+\[\ce{NO + Br2 <=>T[k1][k-1] NOBr2}\]
+\[\ce{NOBr2 + NO ->T[k2] 2NOBr}\]
+$k_1, k_{-1}$ reach
+equilibrium meaning rate of (forward = reverse) and the total rate constant
+$k = k_2 \frac{k_1}{k_{-1}}$. Two steps, but only uni/bi molecular is more likely.
+35 or more steps are sometimes derived!
+\end{multicols}
+\end{mdframed}
+
+
+
+\begin{mdframed}\subsection{Catalysts}
+\begin{multicols}{2}
+\begin{compactdesc}
+    \item[Catalyst] changes the speed of (initial) activation of a reaction without being changed itself
+        Usually done by lowering $E_a$. Opposite = inhibitor.
+    \item[Homogeneous catalyst] same phase as reactants. Not so for a
+        \textbf{Heterogeneous catalyst} (first step usually adsorption of
+        reactants)
+    \item[Adsorption] (think adhesion), how fast a substance is bound to a
+        surface.
+    \item[Enzymes] marvelously efficient biological catalysts. Usually huge
+        proteins, kilo to mega amu. Very selective. Faster than nonbiologicals,
+        $10^3 - 10^7$ reactions per molecule per second (turnover number).
+    \item[Substrates] substances reacting at the active site
+    \item[Active site] location of catalysis.
+    \item[Lock-and-key model] Explanation for specificity of an enzyme.
+\end{compactdesc}
+\end{multicols}
+\end{mdframed}
