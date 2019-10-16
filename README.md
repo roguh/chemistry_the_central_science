@@ -32,8 +32,8 @@ by
 - ISBN-13: 978-0321910417
 - ISBN-10: 0321910419
 
-Images under fair use for educational purposes.
-
 ## License
+
+Images and content intended to be used for educational purposes, "fair use."
 
 CC BY-NC 3.0 US
